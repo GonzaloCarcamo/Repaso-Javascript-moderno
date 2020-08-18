@@ -27,3 +27,15 @@ console.log(compra1.mostrar());
 
 // Se pueden heredar los métodos y el constructor
 // El super también puede ser usado en el método, pero solo puede haber un return
+
+export const nombreTarea = 'Pasear al perro';
+
+// Exportar una función
+
+export const crearTarea = ( tarea, urgencia ) => {
+    return `La tarea ${tarea} tiene una urgencia ${urgencia}`;
+}
+
+export const tareaCompleta = () => {
+    console.log('Tarea completa');
+}
